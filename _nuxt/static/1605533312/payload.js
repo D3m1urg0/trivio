@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{books:[{slug:"citta",title:"La città che ride",author:"Viviana De Simone",category:"horror"},{slug:"echo",title:"Echo 931",author:"Alberto Tronchi",category:"scifi"},{slug:"artiglio",title:"L'Artiglio in fiamme",author:"Stefania Ricco",category:"fantasy"}]}],fetch:[],mutations:void 0});
