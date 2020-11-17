@@ -5,6 +5,7 @@ category: scifi
 keywords: Echo 931, Alberto Tronchi, avventura interattiva, intelligenza artificiale
 description: 'Anno 3330. La nave colonica Dante X399 della Van Der Mer Corporate è in viaggio verso Echo 931, una Super Terra su cui è stata percepita la presenza di vita.'
 ---
+
 Anno 3330. La nave colonica Dante X399 della Van Der Mer Corporate è in viaggio verso Echo 931, una Super Terra su cui è stata percepita la presenza di vita. La colonizzazione spaziale è guidata dalla tecnologia Echo, in grado di sfruttare una nuova gamma di frequenza che collega la materia tramite una rete di correlazioni energetiche.
 Grazie alla tecnologia Echo è stato possibile mappare una distanza astronomica di oltre 30.000 au, e la lista dei vari pianeti generata dalle rifrazioni è stata stilata con la codificazione definita Echo numerica, fino all’ultimo scoperto: Echo 931.
 Colonizzare nuovi pianeti è il business del nuovo millennio. Intere famiglie di coloni decidono di imbarcarsi sulle navi allestite da compagnie private, accettando i rischi di una corsa verso l’ignoto alla ricerca di un nuovo paradiso.
