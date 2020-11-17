@@ -2,7 +2,8 @@
 title: L'Artiglio in fiamme
 author: Stefania Ricco
 category: fantasy
-description: 'Descrizione del Libro...'
+keywords: L'artiglio in fiamme, Kindsgard, Draghieri, Eroe, Fiere
+description: 'Mentre accompagni uno sparuto gruppo di Umani alla sicurezza dell'Artiglio del Fiume Rosso, una luce si spegne: l'Artiglio di Fuoco è in pericolo.'
 ---
 
 Nel Kindsgard tutto segue la legge di Natura, l'unica Dea indifferente e crudele. All'ombra di Maestà, la montagna al centro del Giardino, tutto soffre e tutto lotta per sopravvivere, contro le Fiere, creature di ogni genere, e contro l'ambiente stesso.
