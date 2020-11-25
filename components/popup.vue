@@ -8,7 +8,7 @@
     >
       <div class="inset-0 flex max-w-4xl max-h-screen overflow-hidden">
         <div
-          class="flex flex-col m-8 overflow-hidden bg-white shadow-md"
+          class="flex flex-col m-8 overflow-hidden bg-white shadow-md popup"
           @click.stop=""
         >
           <div

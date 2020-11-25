@@ -4,10 +4,10 @@
     <Nuxt class="pt-16" />
     <CookieControl locale="it">
       <template #bar>
-        <p v-text="privacy.alert" />
+        <p class="text-white" v-text="privacy.alert" />
         <popup v-cloak :content="privacy">
           <template #trigger="{ open }">
-            <a class="cursor-pointer hover:underline" @click="open">
+            <a class="text-white cursor-pointer hover:underline" @click="open">
               informativa Privacy
             </a>
           </template>
