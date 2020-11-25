@@ -9,7 +9,10 @@
         :icon-name="category"
         class="z-10 flex-none h-full text-white"
       />
-      <div class="h-24 title-label" :class="[`title-label--${type}`]">
+      <div
+        class="h-24 title-label"
+        :class="[`title-label--${type}`, `title-label--${category}`]"
+      >
         <div
           class="relative title-label__bg"
           :class="[`title-label__bg--${type} title-label__bg--${category}`]"
@@ -55,7 +58,7 @@ export default {
   },
   computed: {
     type() {
-      return (this.index + 1) % 2 === 0 ? 'even' : 'odd'
+      return (this.index + 1) % 2 === 0 ? 'odd' : 'odd'
     },
   },
 }
@@ -65,6 +68,9 @@ export default {
 .title-label {
   transition: all 1s;
   @apply w-full overflow-hidden cursor-pointer text-2xl;
+}
+.title-label--scifi {
+  @apply text-xl;
 }
 .title-label--odd {
   transition: all 1s;

@@ -3,6 +3,9 @@ import tailwindTypography from '@tailwindcss/typography'
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
+  server: {
+    host: '',
+  },
   // router: {
   //   base: '/trivio/',
   // },
@@ -12,7 +15,27 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { name: 'site_name', content: 'Collana Trivio' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Collana Trivio' },
+      { hid: 'og:title', name: 'og:title', content: 'Collana Trivio' },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'Collana Trivio è la prima linea editoriale dedicata ai Librigame della Casa Editrice Il Barone Games. In arrivo un crowdfunding che finanzierà un triplice progetto.',
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Collana Trivio è la prima linea editoriale dedicata ai Librigame della Casa Editrice Il Barone Games. In arrivo un crowdfunding che finanzierà un triplice progetto.',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content:
+          "Librigame, Librogame, Avventure a bivi, L'Artiglio in fiamme, Echo 931, La città che ride",
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -21,7 +44,7 @@ export default {
   css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['@/plugins/icons'],
+  plugins: ['@/plugins/icons', '@/plugins/mixins.js'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,

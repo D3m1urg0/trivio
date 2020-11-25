@@ -2,9 +2,11 @@
 title: La città che ride
 author: Viviana De Simone
 category: horror
-description: 'Descrizione del Libro...'
+keywords: La città che ride, Midday, orrore, morbo, notte
+description: 'Tre sconosciuti che non sanno nulla l’uno dell’altro sono ancora svegli quando il buio cala. Un morbo sconosciuto si diffonde a velocità folle e l’orrore improvvisamente li circonda.'
 ---
 
-## Autunno, arriva la notte
--------
-Tre persone, in tre punti diversi della città, concludono la loro giornata. Non si conoscono, non hanno niente in comune, ma molto presto scopriranno che il mondo sta per cambiare. Un morbo misterioso trasforma in inquietanti predatori tutti gli abitanti. Il buio invade le strade e nell'oscurità, gli infetti si aggirano, i volti contorti in un ghigno dissennato, alla ricerca di un bersaglio. Quei pochi che restano immuni diventano improvvisamente prede. E tutto quello che possono fare è tentare disperatamente di sopravvivere...
+Il sole sta per tramontare e a Midday, una normale cittadina americana, in tanti si apprestano a tornare a casa dopo una giornata come tante. Un uomo entra in un cinema con la sua fidanzata, una donna termina il proprio lavoro nel suo ufficio, a venti piani di altezza. Uno studente si appresta a fare le valigie per tornare a casa. Tre sconosciuti che non sanno nulla l’uno dell’altro sono ancora svegli quando il buio cala. E l’orrore improvvisamente li circonda.
+Un morbo sconosciuto si diffonde a velocità folle e mentre i tre si rendono conto gradualmente che la loro vita è cambiata per sempre, rimane un solo dubbio da affrontare. Ce la faranno, a rivedere l’alba?
+
+_La Città che ride_ è la tua avventura. Conduci i tre personaggi attraverso la notte più paurosa delle loro vite, scegli per loro dove andare, con chi parlare, che oggetti raccogliere, quali nemici affrontare. Ma attento, perché dietro ogni scelta si annida quello che potrebbe essere il tuo ultimo passo falso.

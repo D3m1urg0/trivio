@@ -1,7 +1,7 @@
 <template>
-  <div class="mt-auto bg-brand-dark">
+  <div class="mt-auto text-white bg-brand-dark">
     <div
-      class="container flex items-center justify-between mx-auto border-t border-brand-light"
+      class="container flex flex-wrap items-center justify-between mx-auto border-t border-brand-light"
     >
       <svg class="h-20 p-4 text-white" viewBox="0 0 18 18">
         <g id="Barone" class="fill-current">
@@ -14,7 +14,7 @@
         </g>
       </svg>
 
-      <div>
+      <div class="px-4">
         Email: <a href="mailto:info@collanatrivio.it">info@collanatrivio.it</a>
       </div>
       <div class="flex text-sm">

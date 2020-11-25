@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen text-white bg-brand-dark">
+  <div class="flex flex-col min-h-screen">
     <app-header class="flex-none" />
     <Nuxt class="pt-16" />
     <CookieControl locale="it">

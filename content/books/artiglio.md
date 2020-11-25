@@ -2,14 +2,15 @@
 title: L'Artiglio in fiamme
 author: Stefania Ricco
 category: fantasy
-description: 'Descrizione del Libro...'
+keywords: L'artiglio in fiamme, Kindsgard, Draghieri, Eroe, Fiere
+description: "Mentre accompagni uno sparuto gruppo di Umani alla sicurezza dell'Artiglio del Fiume Rosso, una luce si spegne: l'Artiglio di Fuoco è in pericolo."
 ---
 
-## Cala il buio
+Nel Kindsgard tutto segue la legge di Natura, l'unica Dea indifferente e crudele. All'ombra di Maestà, la montagna al centro del Giardino, tutto soffre e tutto lotta per sopravvivere, contro le Fiere, creature di ogni genere, e contro l'ambiente stesso.
+L'Anello di Fuoco, un cerchio di torri di guardia, si erge a barriera delle terre liberate per la sopravvivenza della Specie Umana e gli instancabili Draghieri, unica difesa degli Umani, combattono ogni giorno per la sopravvivenza di una sola Specie.
+Mentre accompagni uno sparuto gruppo di Umani alla sicurezza dell'Artiglio del Fiume Rosso, una luce si spegne: l'Artiglio di Fuoco è in pericolo. Non c'è modo di sapere quale Fiera ha attaccato l'Artiglio o quanti Umani ci siano da portare in salvo: devi lasciare il tuo gruppo alle cure del Draghiere di stanza al Fiume e partire, sperando di essere abbastanza veloce. Sei un Draghiere, un Eroe infuso di Fierezza: tuo è il compito di assicurare la sopravvivenza degli Umani, a qualsiasi costo.
 
----
-Le luci si accendono nella notte del Kindsgard.
-Le stelle, in alto oltre gli alberi, il Fiume Rosso e il fianco minaccioso di Maestà, e i fuochi accesi negli Artigli, giorno e notte, segno che tutto va bene. Ogni notte nel Kindsgard si guardano quei fuochi, pregando che rimangano accesi, pregando che tutto rimanga sicuro.
-Dal fuoco davanti a te si alza un'ultima fiammella, poi rimangono solo le braci.
-E quando i tuoi occhi percorrono di nuovo l'orizzonte, ora completamente buio, ti accorgi che qualcosa non va.
-Nel buio una stella si è spenta: l'Artiglio di Fuoco non brilla più nella notte.
+In questa avventura la sopravvivenza di un'intera Specie sarà affidata a te.
+Vestirai i panni di un Draghiere, sarai tu a scegliere il tuo Istinto e i tuoi colori araldici, e non conoscerai nient'altro che la crudeltà di un mondo in cui tutto è un pericolo.
+Usa le tue abilità e lasciati guidare dal tuo Istinto per affrontare le Fiere che troverai sul cammino, e non abbandonare mai un Umano in pericolo, o la tua intera esistenza sarà vana.
+Riuscirai ad arrivare in tempo per salvare l'Artiglio in fiamme?

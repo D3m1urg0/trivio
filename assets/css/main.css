@@ -6,3 +6,7 @@
 input {
   @apply outline-none;
 }
+
+.nuxt-content-container.is-editing {
+  @apply min-w-full text-black;
+}

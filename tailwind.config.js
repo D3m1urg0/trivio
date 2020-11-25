@@ -6,13 +6,13 @@ module.exports = {
   purge: [],
   theme: {
     typography: (theme) => ({
-      default: {
-        css: {
-          'h1, h2, h3, h4, h5': {
-            color: theme('colors.white'),
-          },
-        },
-      },
+      // default: {
+      //   css: {
+      //     'h1, h2, h3, h4, h5': {
+      //       color: theme('colors.white'),
+      //     },
+      //   },
+      // },
       // fantasy: {
       //   css: {
       //     'h1, h2, h3, h4, h5': {
@@ -43,20 +43,20 @@ module.exports = {
           dark: '#17162E',
         },
         fantasy: {
-          light: '#8D082E80',
-          dark: '#611A2C80',
+          light: '#8D082E', // 80',
+          dark: '#611A2C', // 80',
         },
         scifi: {
-          light: '#406A8880',
-          dark: '#263D5980',
+          light: '#406A88', // 80',
+          dark: '#263D59', // 80',
         },
         horror: {
-          light: '#72925880',
-          dark: '#2D4A3180',
+          light: '#729258', // 80',
+          dark: '#2D4A31', // 80',
         },
       },
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
