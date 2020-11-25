@@ -1,4 +1,7 @@
+@import './color-varianbles.css';
+
 @import './fonts.css';
+@import './cookie.css';
 
 input {
   @apply outline-none;

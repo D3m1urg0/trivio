@@ -1,0 +1,5 @@
+* {
+  --cookie-control-barBackground: theme('colors.brand.dark');
+  --cookie-control-controlButtonIconColor: theme('colors.brand.dark');
+  --cookie-control-controlButtonHoverBackground: theme('colors.brand.dark');
+}

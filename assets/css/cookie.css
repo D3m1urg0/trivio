@@ -1,0 +1,7 @@
+.cookieControl {
+  @apply fixed;
+}
+.cookieControl__Bar h3,
+.cookieControl__Bar p {
+  @apply text-current !important;
+}
