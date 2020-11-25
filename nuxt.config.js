@@ -50,11 +50,68 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/gtm',
+    [
+      'nuxt-cookie-control',
+      {
+        locales: ['it'],
+        css: true,
+        controlButton: true,
+      },
+    ],
   ],
 
+  cookies: {
+    necessary: [
+      {
+        // if multilanguage
+        // name: {
+        //   en: 'Default Cookies',
+        // },
+        // else
+        name: 'Cookie di default',
+        // if multilanguage
+        // description: {
+        //   en: 'Used for cookie control.',
+        // },
+        // else
+        description:
+          'I cookie che memorizzeranno la tua scelta in questa schermata',
+        cookies: ['cookie_control_consent', 'cookie_control_enabled_cookies'],
+      },
+    ],
+    optional: [
+      {
+        name: 'Google Analitycs',
+        // if you don't set identifier, slugified name will be used
+        identifier: 'ga',
+        // if multilanguage
+        // description: {
+        //   en: 'Google GTM is ...',
+        // },
+        // else
+        description:
+          'Google Analytics è un servizio offerto da Google che traccia e analizza il traffico web.',
+        initialState: true,
+        // src: 'https://www.googletagmanager.com/gtag/js?id=GTM-MFPSWZM',
+        // async: true,
+        cookies: ['_ga'],
+        accepted: (ctx) => {
+          // eslint-disable-next-line no-console
+          window.$nuxt.$gtm.init('GTM-MFPSWZM')
+        },
+        declined: () => {},
+      },
+    ],
+  },
+
   gtm: {
+    enabled: true,
+    debug: true,
     id: 'GTM-MFPSWZM',
+    autoInit: false,
+    scriptDefer: true,
     pageTracking: true,
+    respectDoNotTrack: false,
   },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},

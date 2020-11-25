@@ -19,7 +19,8 @@
     "@nuxtjs/pwa": "^3.0.2",
     "@tailwindcss/typography": "^0.2.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "nuxt-cookie-control": "^1.9.6"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
