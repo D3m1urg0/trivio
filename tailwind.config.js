@@ -1,9 +1,12 @@
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
-  purge: [],
+  mode: 'jit',
+  // These paths are just examples, customize them to match your project structure
+  purge: [
+    './public/**/*.html',
+    './components/**/*.{js,jsx,ts,tsx,vue}',
+    './pages/**/*.{js,jsx,ts,tsx,vue}',
+    './layouts/**/*.{js,jsx,ts,tsx,vue}',
+  ],
   theme: {
     typography: (theme) => ({
       // default: {
