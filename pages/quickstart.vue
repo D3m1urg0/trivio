@@ -71,7 +71,7 @@ export default {
     active: 0,
     isPlaying: false,
     sliderinterval: 3000,
-    sliderTimer: undefined,
+    timer: 0,
   }),
   mounted() {
     this.startTimer()
@@ -79,23 +79,39 @@ export default {
   methods: {
     startTimer() {
       this.isPlaying = true
-      this.sliderTimer = setTimeout(() => {
+      this.timer = setTimeout(() => {
         this.nextBook()
       }, this.sliderinterval)
     },
 
     stopTimer() {
       this.isPlaying = false
-      clearTimeout(this.sliderTimer)
+      clearTimeout(this.timer)
+    },
+
+    resetTimer() {
+      clearTimeout(this.timer)
+      this.startTimer()
+    },
+
+    advanceBookmark(index) {
+      if (this.isPlaying) {
+        this.resetTimer()
+      }
+      this.active = index
     },
 
     selectBookmark(book) {
-      if (this.isPlaying) this.active = book
+      this.active = book
+      this.stopTimer()
     },
-    nextBook() {
-      if (this.active === this.cycle.length - 1) return this.selectBookmark(0)
 
-      this.selectBookmark(this.active + 1)
+    nextBook() {
+      if (this.active === this.cycle.length - 1) {
+        return this.advanceBookmark(0)
+      } else {
+        this.advanceBookmark(this.active + 1)
+      }
     },
   },
 }
