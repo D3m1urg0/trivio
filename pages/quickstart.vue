@@ -9,9 +9,9 @@
     <div>
       <div class="flex px-4 mx-auto">
         <div
-          class="border-brand-light rounded-xl inline-block max-w-md mx-auto border-4 border-double cursor-pointer"
+          class="border-brand-light rounded-xl max-w-max inline-block mx-auto border-4 border-double cursor-pointer"
         >
-          <div class="relative h-full mx-auto">
+          <div class="max-w-max relative h-full mx-auto">
             <img
               src="/Copertina.jpeg"
               class="rounded-xl md:invisible mx-auto"
