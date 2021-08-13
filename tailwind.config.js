@@ -8,37 +8,17 @@ module.exports = {
     './layouts/**/*.{js,jsx,ts,tsx,vue}',
   ],
   theme: {
-    typography: (theme) => ({
-      // default: {
-      //   css: {
-      //     'h1, h2, h3, h4, h5': {
-      //       color: theme('colors.white'),
-      //     },
-      //   },
-      // },
-      // fantasy: {
-      //   css: {
-      //     'h1, h2, h3, h4, h5': {
-      //       'font-family': 'Goudy Mediaeval Regular, roboto, sans-serif',
-      //     },
-      //   },
-      // },
-      // scifi: {
-      //   css: {
-      //     'h1, h2, h3, h4, h5': {
-      //       'font-family': 'Futura, roboto, sans-serif',
-      //     },
-      //   },
-      // },
-      // horror: {
-      //   css: {
-      //     'h1, h2, h3, h4, h5': {
-      //       'font-family': 'D Day Stencil, roboto, sans-serif',
-      //     },
-      //   },
-      // },
-    }),
+    typography: (theme) => ({}),
     extend: {
+      lineClamp: {
+        7: '7',
+        8: '8',
+        9: '9',
+        10: '10',
+      },
+      fontFamily: {
+        body: ['"futura"'],
+      },
       colors: {
         accent: '#9C37B5',
         brand: {
@@ -61,5 +41,8 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/line-clamp'),
+  ],
 }

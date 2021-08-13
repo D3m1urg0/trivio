@@ -11,7 +11,6 @@
 </template>
 
 <script>
-// import BookLabel from './BookLabel'
 export default {
   props: {
     books: {
