@@ -1,41 +1,47 @@
 <template>
-  <div class="bg-brand-dark flex items-center flex-1 h-full text-white">
-    <div class="container flex w-full p-4 mx-auto">
-      <div
-        class="border-brand-light rounded-xl inline-block w-auto max-w-md mx-auto border-4 border-double cursor-pointer"
-      >
-        <div class="relative h-full mx-auto">
-          <img
-            src="Copertina.jpeg"
-            class="rounded-xl invisible h-full mx-auto"
-            alt="copertina"
-          />
-          <transition>
+  <div class="bg-brand-dark h-full text-white">
+    <IconBase
+      icon-name="trivio"
+      class="md:float-right md:h-20 md:py-2 h-32 p-4 mx-auto text-white"
+    />
+    <div class="flex items-center flex-1 w-full h-full">
+      <div class="flex w-full px-4 mx-auto">
+        <div
+          class="border-brand-light rounded-xl inline-block w-auto max-w-md mx-auto border-4 border-double cursor-pointer"
+        >
+          <div class="relative h-full mx-auto">
             <img
-              :src="`copertine/${cycle[active]}.png`"
-              class="rounded-xl absolute inset-0 h-full mx-auto"
-              alt="Scarica il Quickstart"
+              src="Copertina.jpeg"
+              class="rounded-xl md:invisible w-full h-full mx-auto"
+              alt="copertina"
             />
-          </transition>
-          <div class="bottom-16 absolute inset-x-0">
-            <img src="kickstarter.png" class="object-contain w-full p-4" />
-            <div
-              class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-white border-double"
-            >
-              Scarica il Quickstart gratuito !!!
+            <transition>
+              <img
+                :src="`copertine/${cycle[active]}.png`"
+                class="md:block rounded-xl absolute inset-0 hidden h-full mx-auto"
+                alt="Scarica il Quickstart"
+              />
+            </transition>
+            <div class="bottom-16 absolute inset-x-0">
+              <img src="kickstarter.png" class="object-contain w-full p-4" />
+              <div
+                class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-white border-double animate-pulse"
+              >
+                Scarica il Quickstart gratuito !!!
+              </div>
             </div>
           </div>
         </div>
+        <book-marks
+          :books.sync="quicks"
+          :active="active"
+          @rearrange="
+            selectBookmark($event)
+            stopTimer()
+          "
+          @restart="startTimer"
+        />
       </div>
-      <book-marks
-        :books.sync="quicks"
-        :active="active"
-        @rearrange="
-          selectBookmark($event)
-          stopTimer()
-        "
-        @restart="startTimer"
-      />
     </div>
   </div>
 </template>

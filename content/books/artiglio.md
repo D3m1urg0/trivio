@@ -5,7 +5,7 @@ category: fantasy
 keywords: L'artiglio in fiamme, Kindsgard, Draghieri, Eroe, Fiere
 quickOrder: 1
 quickTitle: Fuoco e Fiamme
-quickHero: Syrius Salamander
+quickHero: Syrus Salamander
 quickQuote: 'Sei il Draghiere della Salamandra, ciò vuol dire che il fuoco non ti spaventa, ma ci sono moltissimi modi con cui questo luogo potrebbe uccidere i tuoi Umani, e non vuoi che succeda.'
 description: "Mentre accompagni uno sparuto gruppo di Umani alla sicurezza dell'Artiglio del Fiume Rosso, una luce si spegne: l'Artiglio di Fuoco è in pericolo."
 ---
