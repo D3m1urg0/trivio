@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-brand-dark text-white">
+  <div class="bg-brand-dark flex-col flex-1 text-white">
     <div class="md:h-20 md:text-right">
       <IconBase
         icon-name="trivio"
@@ -7,7 +7,7 @@
       />
     </div>
     <div>
-      <div class="flex px-4 mx-auto">
+      <div class="flex flex-1 px-4 mx-auto">
         <div
           class="border-brand-light rounded-xl inline-block max-w-md mx-auto border-4 border-double cursor-pointer"
         >

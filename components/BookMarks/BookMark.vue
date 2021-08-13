@@ -20,7 +20,7 @@
           />
           <p
             class="flex-1 text-2xl whitespace-pre-wrap"
-            :class="[`text-${category}`]"
+            :class="[`text-${category}`, { 'text-3xl': category !== 'scifi' }]"
             v-text="hero"
           ></p>
         </div>
