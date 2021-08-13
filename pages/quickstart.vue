@@ -1,31 +1,33 @@
 <template>
-  <div class="bg-brand-dark h-full text-white">
-    <IconBase
-      icon-name="trivio"
-      class="md:float-right md:h-20 md:py-2 h-32 p-4 mx-auto text-white"
-    />
-    <div class="flex items-center flex-1 w-full h-full">
-      <div class="flex w-full px-4 mx-auto">
+  <div class="bg-brand-dark text-white">
+    <div class="md:h-20 md:text-right">
+      <IconBase
+        icon-name="trivio"
+        class="md:mr-0 md:h-24 h-32 p-4 mx-auto text-white"
+      />
+    </div>
+    <div>
+      <div class="flex px-4 mx-auto">
         <div
-          class="border-brand-light rounded-xl inline-block w-auto max-w-md mx-auto border-4 border-double cursor-pointer"
+          class="border-brand-light rounded-xl inline-block max-w-md mx-auto border-4 border-double cursor-pointer"
         >
           <div class="relative h-full mx-auto">
             <img
               src="/Copertina.jpeg"
-              class="rounded-xl md:invisible w-full h-full mx-auto"
+              class="rounded-xl md:invisible mx-auto"
               alt="copertina"
             />
             <transition>
               <img
                 :src="`/copertine/${cycle[active]}.png`"
-                class="md:block rounded-xl absolute inset-0 hidden h-full mx-auto"
+                class="md:block rounded-xl absolute inset-0 hidden mx-auto"
                 alt="Scarica il Quickstart"
               />
             </transition>
             <div class="bottom-16 absolute inset-x-0">
-              <img src="/kickstarter.png" class="object-contain w-full p-4" />
+              <img src="/kickstarter.png" class="object-contain p-4" />
               <div
-                class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-white border-double animate-pulse"
+                class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-double animate-pulse"
               >
                 Scarica il Quickstart gratuito !!!
               </div>
