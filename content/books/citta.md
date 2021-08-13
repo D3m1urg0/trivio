@@ -3,7 +3,13 @@ title: La città che ride
 author: Viviana De Simone
 category: horror
 keywords: La città che ride, Midday, orrore, morbo, notte
+quickOrder: 2
+quickTitle: Scherzi del destino
+quickHero: Abraham Bishop
+quickQuote: 'Aggiri il bancone e raggiungi la porta sul retro. Afferri la maniglia e tiri, ma
+con tuo sconcerto... la porta è bloccata! Imprechi. La tua voce, già roca per l’età, è piena d’ira: “Maledetti marmocchi!”'
 description: 'Tre sconosciuti che non sanno nulla l’uno dell’altro sono ancora svegli quando il buio cala. Un morbo sconosciuto si diffonde a velocità folle e l’orrore improvvisamente li circonda.'
+
 ---
 
 Il sole sta per tramontare e a Midday, una normale cittadina americana, in tanti si apprestano a tornare a casa dopo una giornata come tante. Un uomo entra in un cinema con la sua fidanzata, una donna termina il proprio lavoro nel suo ufficio, a venti piani di altezza. Uno studente si appresta a fare le valigie per tornare a casa. Tre sconosciuti che non sanno nulla l’uno dell’altro sono ancora svegli quando il buio cala. E l’orrore improvvisamente li circonda.

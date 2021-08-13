@@ -10,6 +10,9 @@ module.exports = {
   theme: {
     typography: (theme) => ({}),
     extend: {
+      fontFamily: {
+        body: ['"futura"'],
+      },
       colors: {
         accent: '#9C37B5',
         brand: {

@@ -3,7 +3,12 @@ title: Echo 931
 author: Alberto Tronchi
 category: scifi
 keywords: Echo 931, Alberto Tronchi, avventura interattiva, intelligenza artificiale
+quickOrder: 0
+quickTitle: Echi di storie passate
+quickHero: Marko Rimbaudi
+quickQuote: 'Il liquido di mantenimento defluisce dalla capsula e l’impatto del corpo al suolo sveglia definitivamente Marko dal criosonno. Lo schermo conferma le sue speranze, trenta minuti all’atterraggio. Deve darsi da fare.'
 description: 'Anno 3330. La nave colonica Dante X399 della Van Der Mer Corporate è in viaggio verso Echo 931, una Super Terra su cui è stata percepita la presenza di vita.'
+
 ---
 
 Anno 3330. La nave colonica Dante X399 della Van Der Mer Corporate è in viaggio verso Echo 931, una Super Terra su cui è stata percepita la presenza di vita. La colonizzazione spaziale è guidata dalla tecnologia Echo, in grado di sfruttare una nuova gamma di frequenza che collega la materia tramite una rete di correlazioni energetiche.
