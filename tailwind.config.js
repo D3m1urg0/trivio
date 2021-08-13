@@ -10,6 +10,12 @@ module.exports = {
   theme: {
     typography: (theme) => ({}),
     extend: {
+      lineClamp: {
+        7: '7',
+        8: '8',
+        9: '9',
+        10: '10',
+      },
       fontFamily: {
         body: ['"futura"'],
       },
@@ -35,5 +41,8 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/line-clamp'),
+  ],
 }

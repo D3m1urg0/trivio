@@ -8,7 +8,9 @@
         <div class="h-full col-start-1 min-w-[max-content] flex-none">
           <img :src="`pg/${category}.png`" class="h-full" />
         </div>
-        <p class="flex-shrink col-start-2 p-4 italic text-center">
+        <p
+          class="lg:line-clamp-8 flex-shrink hidden col-start-2 m-4 italic text-center"
+        >
           "{{ quote }}"
         </p>
         <div class="row-span-full flex flex-col flex-auto col-start-3 gap-4">
@@ -26,7 +28,13 @@
       </div>
       <div
         class="border-[128px] border-r-transparent border-r-[80px] absolute inset-0 box-border h-0 z-[-1]"
-        :class="[`border-${category}-dark`]"
+        :class="[
+          {
+            'border-fantasy-dark': category === 'fantasy',
+            'border-horror-dark': category === 'horror',
+            'border-scifi-dark': category === 'scifi',
+          },
+        ]"
       />
     </div>
   </div>
