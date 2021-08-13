@@ -6,7 +6,7 @@
     >
       <div class="flex items-center h-full gap-4">
         <div class="h-full col-start-1 min-w-[max-content] flex-none">
-          <img :src="`pg/${category}.png`" class="h-full" />
+          <img :src="`/pg/${category}.png`" class="h-full" />
         </div>
         <p
           class="lg:line-clamp-8 flex-shrink hidden col-start-2 m-4 italic text-center"
