@@ -11,19 +11,19 @@
         >
           <div class="relative h-full mx-auto">
             <img
-              src="/Copertina.jpeg"
+              src="Copertina.jpeg"
               class="rounded-xl md:invisible w-full h-full mx-auto"
               alt="copertina"
             />
             <transition>
               <img
-                :src="`/copertine/${cycle[active]}.png`"
+                :src="`copertine/${cycle[active]}.png`"
                 class="md:block rounded-xl absolute inset-0 hidden h-full mx-auto"
                 alt="Scarica il Quickstart"
               />
             </transition>
             <div class="bottom-16 absolute inset-x-0">
-              <img src="/kickstarter.png" class="object-contain w-full p-4" />
+              <img src="kickstarter.png" class="object-contain w-full p-4" />
               <div
                 class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-white border-double animate-pulse"
               >
