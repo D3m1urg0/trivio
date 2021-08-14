@@ -12,7 +12,7 @@
           class="border-brand-light rounded-xl inline-block w-auto max-w-md mx-auto border-4 border-double cursor-pointer"
         >
           <a
-            href="./pdf/CollanaTrivioQuickstart.pdf"
+            href="/pdf/CollanaTrivioQuickstart.pdf"
             download="Collana Trivio Quickstart"
           >
             <div class="relative h-full mx-auto">
