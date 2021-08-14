@@ -11,28 +11,33 @@
         <div
           class="border-brand-light rounded-xl inline-block w-auto max-w-md mx-auto border-4 border-double cursor-pointer"
         >
-          <div class="relative h-full mx-auto">
-            <img
-              src="/copertina.jpeg"
-              class="rounded-xl md:invisible w-full h-full mx-auto"
-              alt="copertina"
-            />
-            <transition>
+          <a
+            href="./pdf/CollanaTrivioQuickstart.pdf"
+            download="Collana Trivio Quickstart"
+          >
+            <div class="relative h-full mx-auto">
               <img
-                :src="`copertine/${cycle[active]}.png`"
-                class="md:block rounded-xl absolute inset-0 hidden h-full mx-auto"
-                alt="Scarica il Quickstart"
+                src="/copertina.jpeg"
+                class="rounded-xl md:invisible w-full h-full mx-auto"
+                alt="copertina"
               />
-            </transition>
-            <div class="bottom-16 absolute inset-x-0">
-              <img src="kickstarter.png" class="object-contain w-full p-4" />
-              <div
-                class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-white border-double animate-pulse"
-              >
-                Scarica il Quickstart gratuito !!!
+              <transition>
+                <img
+                  :src="`/copertine/${cycle[active]}.png`"
+                  class="md:block rounded-xl absolute inset-0 hidden h-full mx-auto"
+                  alt="Scarica il Quickstart"
+                />
+              </transition>
+              <div class="bottom-16 absolute inset-x-0">
+                <img src="/kickstarter.png" class="object-contain w-full p-4" />
+                <div
+                  class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-white border-double animate-pulse"
+                >
+                  Scarica il Quickstart gratuito !!!
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <book-marks
           :books.sync="quicks"
