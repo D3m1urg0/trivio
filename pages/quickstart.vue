@@ -1,9 +1,11 @@
 <template>
   <div class="bg-brand-dark h-full text-white">
-    <IconBase
-      icon-name="trivio"
-      class="md:float-right md:h-20 md:py-2 h-32 p-4 mx-auto text-white"
-    />
+    <div class="md:h-20 md:text-right">
+      <IconBase
+        icon-name="trivio"
+        class="md:mr-0 md:h-24 h-32 p-4 mx-auto text-white"
+      />
+    </div>
     <div class="flex items-center flex-1 w-full h-full">
       <div class="flex w-full px-4 mx-auto">
         <div
@@ -11,7 +13,7 @@
         >
           <div class="relative h-full mx-auto">
             <img
-              src="copertina.jpeg"
+              src="/copertina.jpeg"
               class="rounded-xl md:invisible w-full h-full mx-auto"
               alt="copertina"
             />
