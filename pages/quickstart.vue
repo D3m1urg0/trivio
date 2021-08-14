@@ -11,7 +11,7 @@
         >
           <div class="relative h-full mx-auto">
             <img
-              src="Copertina.jpeg"
+              src="copertina.jpeg"
               class="rounded-xl md:invisible w-full h-full mx-auto"
               alt="copertina"
             />
