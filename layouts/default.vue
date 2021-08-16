@@ -3,13 +3,17 @@
     <app-header class="flex-none" />
     <Nuxt class="pt-16" />
     <CookieControl locale="it">
-      <template #bar>
+      <template #modal>
         <p class="text-white" v-text="privacy.alert" />
         <popup v-cloak :content="privacy">
           <template #trigger="{ open }">
-            <a class="text-white cursor-pointer hover:underline" @click="open">
+            <a
+              class="hover:underline font-bold text-white underline cursor-pointer"
+              @click="open"
+            >
               informativa Privacy
             </a>
+            <hr />
           </template>
         </popup>
       </template>
