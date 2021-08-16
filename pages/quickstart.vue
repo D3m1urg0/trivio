@@ -12,8 +12,8 @@
           class="border-brand-light rounded-xl inline-block w-auto max-w-md mx-auto border-4 border-double cursor-pointer"
         >
           <a
-            href="/pdf/CollanaTrivioQuickstart.pdf"
-            download="Collana Trivio Quickstart"
+            href="/pdf/Collana Trivio Librigame - Il Quickstart.pdf"
+            download="Collana Trivio Librigame - Il Quickstart.pdf"
           >
             <div class="relative h-full mx-auto">
               <img
@@ -31,7 +31,7 @@
               <div class="bottom-16 absolute inset-x-0">
                 <img src="/kickstarter.png" class="object-contain w-full p-4" />
                 <div
-                  class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-white border-double animate-pulse"
+                  class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-double animate-pulse"
                 >
                   Scarica il Quickstart gratuito !!!
                 </div>
