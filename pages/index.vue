@@ -2,21 +2,33 @@
   <div>
     <main class="bg-main">
       <div
-        class="border-brand-light container relative flex justify-center h-full px-4 py-8 mx-auto border-t"
+        class="border-brand-light container relative flex flex-wrap justify-center h-full px-4 py-8 mx-auto border-t"
       >
         <raindrops class="pointer-events-none" />
-        <div
-          class="md:flex-row z-10 flex flex-col items-center flex-1 max-w-2xl"
-        >
-          <div class="flex justify-center flex-1 p-4">
-            <div class="flex justify-center w-64 h-64">
-              <IconBase icon-name="trivio" class="flex-1 text-white" />
+        <div class="w-full">
+          <div
+            class="md:flex-row z-10 flex flex-col items-center flex-1 max-w-4xl mx-auto"
+          >
+            <div class="flex justify-center flex-1 p-4">
+              <div class="flex justify-center w-64 h-64">
+                <IconBase icon-name="trivio" class="flex-1 text-white" />
+              </div>
+            </div>
+            <div class="flex flex-col flex-1 p-4">
+              <nuxt-content :document="page" class="prose text-white" />
             </div>
           </div>
-          <div class="flex flex-col flex-1 p-4">
-            <nuxt-content :document="page" class="prose text-white" />
-          </div>
         </div>
+        <a
+          class="max-w-lg"
+          href="https://www.kickstarter.com/projects/collanatrivio/librigame-collana-trivio"
+          target="_blank"
+        >
+          <div class="bg-ks p-4 mx-auto rounded-lg cursor-pointer">
+            <p class="text-center text-white">Live su</p>
+            <img src="kickstarter-logo-white.png" alt="Kickstarter" />
+          </div>
+        </a>
       </div>
     </main>
     <div

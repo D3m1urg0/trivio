@@ -21,6 +21,7 @@ module.exports = {
       },
       colors: {
         accent: '#9C37B5',
+        ks: '#05ce78',
         brand: {
           light: '#572361',
           dark: '#17162E',
