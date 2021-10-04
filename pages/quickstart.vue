@@ -12,8 +12,8 @@
           class="border-brand-light rounded-xl inline-block w-auto max-w-md mx-auto border-4 border-double cursor-pointer"
         >
           <a
-            href="/pdf/Collana Trivio Librigame - Il Quickstart.pdf"
-            download="Collana Trivio Librigame - Il Quickstart.pdf"
+            href="/pdf/CollanaTrivioLibrigame-IlQuickstart.pdf"
+            download="CollanaTrivioLibrigame-IlQuickstart.pdf"
           >
             <div class="relative h-full mx-auto">
               <img
