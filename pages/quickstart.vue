@@ -29,7 +29,12 @@
                 />
               </transition>
               <div class="bottom-16 absolute inset-x-0">
-                <img src="/kickstarter.png" class="object-contain w-full p-4" />
+                <p class="text-ks text-xl text-center">SEGUICI SU</p>
+                <img
+                  src="/kickstarter-logo-green.png"
+                  class="object-contain w-full p-4 pt-1"
+                  alt="kickstarter"
+                />
                 <div
                   class="border-brand-dark bg-brand-light rounded-2xl max-w-[max-content] px-4 py-2 mx-auto border-2 border-double animate-pulse"
                 >
